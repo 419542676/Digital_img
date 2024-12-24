@@ -3,7 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 加载原始图片
+<<<<<<< HEAD
 image_path = 'faces/1.jpg'  
+=======
+image_path = 'faces/1.jpg'
+>>>>>>> xsh-branch
 image = cv2.imread(image_path)
 
 # 创建锐化卷积核
