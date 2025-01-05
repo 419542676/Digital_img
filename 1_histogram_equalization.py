@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-
+#使用直方图增强图像
 # 加载原始图片
 image_path = 'faces/1.jpg'
 image = cv2.imread(image_path)
@@ -12,7 +12,6 @@ gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # 使用直方图均衡化提高对比度
 equalized_image = cv2.equalizeHist(gray_image)
 
-# 显示原始图像与增强后的图像
 plt.figure(figsize=(10,5))
 
 plt.subplot(1, 2, 1)

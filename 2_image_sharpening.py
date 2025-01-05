@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-
+#锐化图像
 # 加载原始图片
 image_path = 'faces/1.jpg'
 image = cv2.imread(image_path)

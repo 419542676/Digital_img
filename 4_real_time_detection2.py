@@ -1,7 +1,7 @@
 import cv2
 import torch
 import sys
-
+#使用yolo进行实时检测，并使用相关的图像增强方式进行处理对比。
 # 确保 yolov5 目录在 Python 的搜索路径中
 sys.path.append('yolov5')  # 如果 yolov5 文件夹和 real_time_detection.py 在同一目录下
 
